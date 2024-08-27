@@ -14,11 +14,27 @@ body{
 
 /*Navigation*/
 #main-nav a {
-    text-decoration: none;
+    text-decoration: none; /*No underline*/
     background: pink;
     color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
 }
 
+#main-nav a:hover{
+    background: black;
+    color: pink;
+}
+
+#main-nav ul {
+    padding-left: 0;/*removes left padding*/
+}
+
+#main-nav li {
+    list-style-type: none; /*no bullets*/
+    display: inline-block; /*appear on one line*/
+}
 
 /* Typography */
 h1 {
