@@ -1,0 +1,23 @@
+/*Structure*/
+body {
+    background: #9A2A2A;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#assignments {
+    background: black;
+    color:white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#assignments ol {
+    padding-left: 0;
+}
+
+#assigments li{
+    list-style-type: none;
+    display: inline-block;
+}
