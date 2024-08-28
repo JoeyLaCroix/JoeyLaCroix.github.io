@@ -17,7 +17,12 @@ body {
     padding-left: 0;
 }
 
-#assigments li{
+#assignments li{
     list-style-type: none;
     display: inline-block;
+}
+
+#assignments a{
+    text-decoration: none;
+    color: white;
 }
