@@ -2,12 +2,12 @@
 body {
     background: #9A2A2A;
     font-family:Arial, Helvetica, sans-serif;
-    color: green;
+    color: gray;
 }
 
 #assignments {
     background: black;
-    color:white;
+    color:gray;
     padding: 5px;
     margin: 5px;
     border-radius: 10px;
@@ -24,5 +24,5 @@ body {
 
 #assignments a{
     text-decoration: none;
-    color: white;
+    color: rgb(19, 55, 55);
 }
