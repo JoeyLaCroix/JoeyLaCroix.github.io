@@ -11,11 +11,17 @@ body{
     border-radius: 15px;
 }
 
+#Navigation li {
+    list-style-type: none;
+}
+
 #Navigation a{
     background-color:aquamarine;
+    text-decoration: none;
+
 
 }
-#Navitgation a:hover, a:active {
+#Navigation a:hover, a:active {
     background-color: navy;
   }
 
