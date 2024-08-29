@@ -11,10 +11,13 @@ body{
     border-radius: 15px;
 }
 
-#Navigation ul{
+#Navigation a{
     background-color:aquamarine;
 
 }
+#Navitgation a:hover, a:active {
+    background-color: navy;
+  }
 
 img {
     border-radius:10px;
