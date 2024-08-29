@@ -20,8 +20,9 @@ body {
     padding-left: 0;
 }
 
-#main li{
+#main-nav li{
     list-style: none;
+    border-bottom: 1px solid violet;
 }
 
 #main-nav a{
@@ -29,6 +30,7 @@ body {
     padding: 5px;
     background: black;
     color: violet;
+    display: block;
 }
 
 #main-footer {
