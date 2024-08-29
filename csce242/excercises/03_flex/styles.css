@@ -38,6 +38,12 @@ body {
     color: violet;
     display: block;
 }
+#main-aside {
+    background-color: red;
+}
+#news section {
+    background: lightcyan;
+}
 
 #main-footer {
     background:violet;
@@ -60,9 +66,22 @@ body {
     }
 
     .one{
-        flex: 1;
+        flex:1;
     }
+    .two{
+        flex:2;
+    }
+    .three{
+        flex:3;
+    }
+    .four{
+        flex:4;
+    }
+
     
+    #main-nav li{
+        flex:1;
+    }
 }
 @media only screen and (min-width:768px) {
     
