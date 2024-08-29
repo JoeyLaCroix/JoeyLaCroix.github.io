@@ -5,10 +5,34 @@ body {
 }
 
 #content {
-    width: 70%;
+    width: 95%;
     margin: auto;
     background: white;
     border-radius: 5px;
+}
+
+#main-header {
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+#main-nav ul {
+    padding-left: 0;
+}
+
+#main li{
+    list-style: none;
+}
+
+#main-nav a{
+    text-decoration: none;
+    padding: 5px;
+    background: black;
+    color: violet;
+}
+
+#main-footer {
+    background:violet;
 }
 
 /*Navigation*/
