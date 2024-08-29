@@ -22,7 +22,7 @@ img {
     padding: 10px;
 }
 
-#Table{
+#Table {
         background-color: lightblue;
         padding: 10px;
         margin: 20px;
@@ -32,7 +32,7 @@ img {
 #Content {
     background-color: grey;
     padding: 5px;
-    margin 20 px;
-    border-radius;
+    margin: 20 px;
+    border-radius: 15 px;
 }
 
