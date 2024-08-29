@@ -11,9 +11,9 @@ body{
     border-radius: 15px;
 }
 
-ul{
-    backgroud-color:aquamarine;
-    
+#Navigation ul{
+    background-color:aquamarine;
+
 }
 
 img {
