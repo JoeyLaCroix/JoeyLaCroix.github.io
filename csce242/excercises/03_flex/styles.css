@@ -49,6 +49,10 @@ body {
     background:violet;
 }
 
+img {
+    max-width: 100%;
+}
+
 /*Navigation*/
 
 
