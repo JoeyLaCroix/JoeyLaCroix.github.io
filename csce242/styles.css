@@ -2,10 +2,13 @@
 body {
     background: #9A2A2A;
     font-family:Arial, Helvetica, sans-serif;
-    color: gray;
+    color: black;
+    text-align: center;
 }
-
-#assignments {
+body #name{
+    text-align: left;
+}
+.assignments {
     background: black;
     color:gray;
     padding: 5px;
@@ -13,15 +16,27 @@ body {
     border-radius: 10px;
 }
 
-#assignments ol {
+.assignments ol {
     padding-left: 0;
 }
 
-#assignments li{
+.assignments li{
     list-style-type: none;
 }
 
-#assignments a{
+.assignments a{
     text-decoration: none;
     color: rgb(242, 242, 242);
+}
+
+
+@media (min-width: 900px)
+{
+    .assignments{
+        display: flex;
+    }
+
+    .assignment-columns{
+        flex: 1;
+    }
 }
