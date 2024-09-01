@@ -8,6 +8,12 @@ body {
 body #name{
     text-align: left;
 }
+.assignment-columns{
+    margin:5px;
+    background-color: #671a1a;
+    padding:5px;
+    border-radius: 5px;
+}
 .assignments {
     background: black;
     color:gray;
