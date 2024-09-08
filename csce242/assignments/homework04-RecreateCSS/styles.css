@@ -1,0 +1,265 @@
+body{
+    font-family: 'Berlingske Sans', 'Arial', sans-serif;
+}
+/*Header*/
+#main-header{
+    background-color: #000000;
+}
+#main-header img{
+    margin: 20px;
+    padding-left:50px;
+}
+#header-nav ul,#nav-2 ul{
+    list-style-type: none;
+    padding: 5px;
+}
+#header-nav li{
+    color: white;
+    margin:5px;
+    font-size: 13px;
+}
+#nav-2 li{
+    color:white;
+    margin: 5px;
+}
+
+#header-nav a,#nav-2 a{
+    color: white;
+    text-decoration: none;
+}
+#header-nav a:hover, a:active {
+    background-color: rgb(240, 90, 90);
+}
+#nav-2 a:hover, a:active {
+    background-color: rgb(240, 90, 90);
+}
+.button a:hover,a:active{
+        background-color: white;
+}
+.link-link a:hover,a:active{
+    background-color: rgb(240, 90, 90);
+}
+#header-nav 
+{
+    position:absolute;
+    top:0%;
+    right: 3%;
+}
+#search{
+    position:absolute;
+    top:50px;
+    right:0;
+    margin-right:50px;
+    color:white;
+    border: 1px solid white;
+}
+
+#nav-2{
+    background-color: #73000A;
+}
+#search,#header-nav,#nav-2{
+    display:none;
+}
+#flex-imgs{
+    position: absolute;
+    right:0;
+    top:50px;
+    margin-right:50px;
+    display: flex;
+}
+#courthouse
+
+/*Body1*/
+#courthouse{
+    text-align: center;
+    margin:0px;
+    padding:0px;
+}
+.content{
+    background-color: white;
+    margin-left:250px;
+    margin-right:250px;
+}
+#GSA h1{
+    background-color: #73000A;
+    color:white;
+}
+.small{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#big{
+    display: none;
+}
+.title{
+    margin-right: 500px;
+}
+#GSA{
+    margin:10px;
+}
+.EDPcontent{
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding:30px;
+}
+.EDPcontent h1{
+    font-size: 40px;
+    
+}
+#EDPimage{
+    text-align: center;
+}
+#EDP{
+    background-color: #73000A;
+    color:white;
+}
+.AR{
+    background-color: #000000;
+    position:absolute;
+    top:1250px;
+    right:0;
+    margin-right:400px;
+    color:white;
+    border: 1px solid white;
+    display:none;
+}
+.AR a{
+   color:white;
+   text-decoration: none;
+}
+#YEI{
+    background-color: #ECECEC;
+    padding:5px;
+    text-align: center;
+}
+#YEI h1{
+    color: #73000A;
+}
+#YEIcontent2 {
+    padding: 10px;
+    margin-right:200px;
+    margin-left: 200px;   
+}
+.button{
+    color:white;
+    margin-right:auto;
+    margin-left:auto;
+    padding:4px;
+
+}
+.button a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    background-color: #73000A;
+    padding: 10px;
+}
+#PFS{
+    text-align: center;
+    margin-right:200px;
+    margin-left: 200px; 
+}
+#PFS h1{
+    color:#73000A;
+    font-size:40px;
+    font-family: 
+}
+#pictures{
+    text-align: center;
+    margin-right:200px;
+    margin-left: 200px; 
+}
+.picture h1 a{
+    text-decoration: none;
+    color:#73000A;
+}
+.picture p a{
+    text-decoration: none;
+    color:black;
+}
+#TNS{
+    background-color: black;
+    color:white;
+}
+.TNScontent{
+    padding: 200px;
+    text-align: left;
+}
+.girl{
+    margin-left:250px;
+}
+.TNScontent h4{
+    color:white;
+    margin-right:auto;
+    margin-left:auto;
+    padding:4px;
+
+}
+.TNScontent a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    background-color: #73000A;
+    padding: 10px;
+}
+#footer{
+    background-color: #73000A;
+    color: white;
+    text-align: center;
+}
+.small-img{
+    margin-right: 0px;
+}
+#links-footer{
+    background-color: #73000A;
+    color: white;
+    padding:10px;
+    text-align: center;
+}
+#links-footer h5{
+    font-size: 20px;
+}
+.link p{
+    padding:0px;
+}
+.link-link a{
+    text-decoration: none;
+    color:white
+}
+#main-footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+#main-footer a{
+    text-decoration: none;
+    color:white;
+    font-size: 10px;
+}
+
+@media (min-width: 900px){
+    #header-nav ul,#nav-2 ul,#search,#big,#PFS,#pictures,#TNS,#footer,#links-footer,#links-1,#main-footer{
+        display: flex;
+    }
+    #header-nav li,#nav-2 li,#EDP,.AR{
+        display: flex;
+    }
+    #nav-2 ul,#nav-2 li,.picture,.girl,.small-img,.footer-header,.link,.link-link{
+        flex:1;
+    }
+    .TNScontent{
+        flex:2;
+    }
+    #search,#header-nav,#nav-2,#EDPcontent,#EDPimage{
+        display:flex;
+    }
+    #flex-imgs,.small{
+        display:none;
+    }
+}

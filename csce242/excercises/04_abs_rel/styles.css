@@ -1,0 +1,70 @@
+/*Structure*/
+body{
+    background-color: aqua;
+}
+
+#content{
+    background-color: white;
+
+}
+
+.columns-all{
+    display:flex;
+}
+
+img{
+    max-width: 100%;
+}
+
+#main-img{
+    margin-right: 5px;
+}
+/*Header*/
+#main-header{
+    position: relative;
+    
+}
+
+#login-menu{
+ 
+    width:fit-content;
+    position: absolute;
+    top:3%;
+    right: 3%;
+
+}
+#login-menu ul{
+    padding-left: 0;
+    display:none;
+}
+#login-menu li{
+    list-style-type: none;
+    padding: 5px;
+}
+#login-menu a{
+    text-decoration: none;
+    color: blueviolet
+}
+#login-menu a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
+/*Larger Resolutions*/
+@media only screen and (min-width:600px){
+   #content{
+    width:70%;
+    margin: auto;
+   }
+   #settings
+   {
+    display: none;
+   }
+    .columns{
+        display:flex;
+    }
+    #login-menu ul{
+        display: block;
+    }
+}
