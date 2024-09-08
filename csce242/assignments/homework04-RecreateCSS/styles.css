@@ -242,6 +242,13 @@ body{
     color:white;
     font-size: 10px;
 }
+#YEIcontent2 a{
+    text-decoration: none;
+    color:white;
+    background-color: #73000A;
+    padding:5px;
+   
+}
 
 @media (min-width: 900px){
     #header-nav ul,#nav-2 ul,#search,#big,#PFS,#pictures,#TNS,#footer,#links-footer,#links-1,#main-footer{
