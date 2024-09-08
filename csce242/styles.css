@@ -42,7 +42,16 @@ body #name{
 .assignment-columns a:hover, a:active {
     background-color: red;
   }
-
+#Projects{
+    background-color: #671a1a;
+}
+.project a{
+    text-decoration: none;
+    color: white;
+}
+.project a:hover, a:active {
+    background-color: red;
+  }
 
 @media (min-width: 900px)
 {
