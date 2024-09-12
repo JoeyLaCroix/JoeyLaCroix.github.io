@@ -27,6 +27,7 @@ body p{
 }
 #box{
     text-align: center;
+    position: relative;
 }
 .box{
     background-color: cadetblue;

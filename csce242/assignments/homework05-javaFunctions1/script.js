@@ -15,7 +15,7 @@ rndmimg.onclick = () =>{
 
  slider.oninput = function() {
    const sliderValue = slider.value;
-   box.style.left = 'calc(50% + ${offset}px)';
+   box.style.left = `${sliderValue}px`
 };
  
  
