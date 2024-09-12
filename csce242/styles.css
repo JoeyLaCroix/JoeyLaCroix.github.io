@@ -44,6 +44,7 @@ body #name{
   }
 #Projects{
     background-color: #671a1a;
+    border-radius: 5px;
 }
 .project a{
     text-decoration: none;
@@ -52,14 +53,20 @@ body #name{
 .project a:hover, a:active {
     background-color: red;
   }
+.project{
+    background-color: grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin:5px;
+  }
 
 @media (min-width: 900px)
 {
-    .assignments{
+    .assignments,#Projects{
         display: flex;
     }
 
-    .assignment-columns{
+    .assignment-columns,.project{
         flex: 1;
     }
 }
