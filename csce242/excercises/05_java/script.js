@@ -16,9 +16,14 @@ myButton1.onclick = () =>{
     document.getElementById("stuff").classList.remove("special");
  };
 
- myButton2.onclick = () =>{
-    document.getElementById("one").classList.add('hide');
- };
+ //Showing data from an iput field
+document.getElementById("txt-first-name").onkeyup = (event) =>{
+   document.getElementById("result").innerHTML = event.target.value;
+}
+
+
+
+
 //Add a second button, called say goodbye
 //when clicked change the text to goodbye everyone, and remove the special styles
 
