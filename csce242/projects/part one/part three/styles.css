@@ -1,0 +1,37 @@
+#img-logo{
+    margin-left:0px;
+    margin-top:0px;
+    padding:5px;
+}
+.buttons
+{
+    size:100 px;
+}
+#title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+}
+#middlecol{
+    text-align: center;
+}
+#aboutus-main{
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+#checkout-main{
+    text-align: center;
+}
+#surf-main{
+    text-align: center;
+}
+@media only screen and (min-width: 600px) {
+
+    #column,#middlecol,#main-bottom,#main-middle,#aboutus-main,#checkout-main,#surf-main{
+        display: flex;
+    }
+    #btn-click,#img-logo,#shoplink,#main-middle,#p,#column1,#column2{
+        flex:1;
+    }
+}
