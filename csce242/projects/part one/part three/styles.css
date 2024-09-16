@@ -1,7 +1,9 @@
+:root{
+    black:black;
+}
+
 #img-logo{
-    margin-left:0px;
-    margin-top:0px;
-    padding:5px;
+    text-align: left;
 }
 .buttons
 {
@@ -17,21 +19,25 @@
 #aboutus-main{
     text-align: center;
 }
-body{
-    text-align: center;
-}
 #checkout-main{
     text-align: center;
 }
 #surf-main{
     text-align: center;
 }
+#btn{
+    margin:25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 @media only screen and (min-width: 600px) {
 
     #column,#middlecol,#main-bottom,#main-middle,#aboutus-main,#checkout-main,#surf-main{
         display: flex;
     }
-    #btn-click,#img-logo,#shoplink,#main-middle,#p,#column1,#column2{
+    #btn,#img-logo,#shoplink,#main-middle,#p,#column1,#column2{
         flex:1;
     }
 }
