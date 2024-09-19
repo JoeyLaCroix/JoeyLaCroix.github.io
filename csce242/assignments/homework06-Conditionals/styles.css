@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    background-color: beige;
+}
+#main-nav{
+    text-align: center;
+}
+
+/*Slider*/
+.slider {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+#slider{
+    background-color:blue;
+    display:none;
+}
+/*Images*/
+
+
+/*media quieries*/
+@media (min-width: 900px){
+    #main-nav{
+        display: flex;
+    }
+    #links{
+        flex: 1;
+    }
+}
