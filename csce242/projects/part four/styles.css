@@ -53,13 +53,21 @@ body{
 #img-logo{
     position:relative;
 }
-#main-middle{
+#middleimages{
     text-align: center;
 }
-#middlecol img{
-    margin: 100px;
-    padding: 100px;
+#main-bottom{
+    text-align: center;
+    background-color: var(--beach);
+    margin:10px;
+    padding:10px;
+    border-radius: 10px;
 }
+#shoplink a{
+    text-decoration: none;
+    color: var(--black);
+}
+
 /*About us*/
 #aboutus-main{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
@@ -76,14 +84,33 @@ body{
 #aboutus-main{
     text-align: center;
 }
+/*our items*/
+#mainnci{
+    text-align: center;
+    background-color: var(--beach);
+    margin:10px;
+    padding:10px;
+    border-radius: 10px;
+}
+#mainnci a{
+    text-decoration: none;
+    color: var(--black);
+}
+#mainnci a:hover{
+    background: var(--ocean);
+}
+#mainnci ul{
+    list-style-type: none;
+    text-align: center;
+}
 /*Media Queries*/
 
 @media only screen and (min-width: 600px) {
 
-    #header-nav ul,#middlecol,#main-bottom,#aboutus-main,#checkout-main,#surf-main{
+    #header-nav ul,#middleimages,#main-bottom,#aboutus-main,#checkout-main,#surf-main,#nci-main{
         display: flex;
     }
-    #header-nav li,#img-logo,#shoplink,#middlecol img,#p,#column1,#column2{
+    #header-nav li,#img-logo,#shoplink,#p,#column1,#column2,#middlemain,#mainnci{
         flex:1;
     }
     #nav-toggle{
