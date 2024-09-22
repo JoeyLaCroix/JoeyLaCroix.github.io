@@ -3,20 +3,26 @@
     <head>
         <title>Homework 6: Conditionals</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <script src="scripts.js"></script>
     </head>
     <body>
         <h1>Assignment 8</h1>
         <h3>If-Statements</h3>
-        <a href="#" id="ass-1">Assignment 1 | </a>
-        <a href="#" id="ass-2">  Assignment 2</a>
-       <div id="slider">
+        <a href="#slider" id="ass-1">Assignment 1 | </a>
+        <a href="#images" id="ass-2">  Assignment 2</a>
+       <div id="slider" class="hidden">
         <h2>Color Slider</h2>
             <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
             <p>Value: <span id="demo"></span></p>
         </div>
-        <div id="images">
-            <img src="https://place-hold.it/200" alt="placeHolder"><br>
+        <div id="images" class="hidden">
+            <h1>Picture Chooser</h1>
+            <button id="btn">Small</button>
+            <button id="btn">Medium</button>
+            <button id="btn">Large</button>
+            <img id="img-large" src="https://picsum.photos/200/200" alt="placeHolder" class="hidden"><br>
+            <img id="img-medium" src="https://picsum.photos/100/100" alt="placeHolder" class="hidden"><br>
+            <img id="img-small" src="https://picsum.photos/50/50" alt="placeHolder" class="hidden"><br>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>

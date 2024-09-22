@@ -6,20 +6,13 @@
 body{
     background-color:var(--ocean)
 }
-#middlecol{
-    text-align: center;
-}
-#aboutus-main{
-    text-align: center;
-}
+
+
 #checkout-main{
     text-align: center;
 }
 #surf-main{
     text-align: center;
-}
-#btn{
-    margin:25px;
 }
 
 /*Nav*/
@@ -60,15 +53,37 @@ body{
 #img-logo{
     position:relative;
 }
-
+#main-middle{
+    text-align: center;
+}
+#middlecol img{
+    margin: 100px;
+    padding: 100px;
+}
+/*About us*/
+#aboutus-main{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#p{
+    background-color: var(--beach);
+    margin:5px;
+    border-radius: 10px;
+}
+#aboutusimage{
+    text-align: center;
+    size: 50%;
+}
+#aboutus-main{
+    text-align: center;
+}
 /*Media Queries*/
 
 @media only screen and (min-width: 600px) {
 
-    #header-nav ul,#middlecol,#main-bottom,#main-middle,#aboutus-main,#checkout-main,#surf-main{
+    #header-nav ul,#middlecol,#main-bottom,#aboutus-main,#checkout-main,#surf-main{
         display: flex;
     }
-    #header-nav li,#img-logo,#shoplink,#main-middle,#p,#column1,#column2{
+    #header-nav li,#img-logo,#shoplink,#middlecol img,#p,#column1,#column2{
         flex:1;
     }
     #nav-toggle{
