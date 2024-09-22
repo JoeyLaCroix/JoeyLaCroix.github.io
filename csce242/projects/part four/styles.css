@@ -1,0 +1,77 @@
+:root{
+    --black: black;
+    --beach: rgb(204, 162, 126);
+    --ocean: rgb(164, 213, 239);
+}
+body{
+    background-color:var(--ocean)
+}
+#middlecol{
+    text-align: center;
+}
+#aboutus-main{
+    text-align: center;
+}
+#checkout-main{
+    text-align: center;
+}
+#surf-main{
+    text-align: center;
+}
+#btn{
+    margin:25px;
+}
+
+/*Nav*/
+#header-nav ul{
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+}
+#nav-toggle div{
+    width:35px;
+    height:5px;
+    background-color: var(--black);
+    margin:6px 0;
+}
+#header-nav li{
+    color: var(--black);
+    margin:5px;
+    font-size: 13px;
+}
+#header-nav a{
+    text-decoration: none;
+    color:var(--black)
+}
+#header-nav a:hover{
+    background: var(--beach);
+}
+#main-items{
+    font-size:1.2em;
+}
+.hidden{
+    display:none;
+}
+/*Home*/
+#title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+#img-logo{
+    position:relative;
+}
+
+/*Media Queries*/
+
+@media only screen and (min-width: 600px) {
+
+    #header-nav ul,#middlecol,#main-bottom,#main-middle,#aboutus-main,#checkout-main,#surf-main{
+        display: flex;
+    }
+    #header-nav li,#img-logo,#shoplink,#main-middle,#p,#column1,#column2{
+        flex:1;
+    }
+    #nav-toggle{
+        display:none;
+    }
+}
