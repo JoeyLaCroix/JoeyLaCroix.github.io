@@ -2,7 +2,10 @@ body{
     text-align: center;
     background-color: beige;
 }
-#main-nav{
+#header-nav{
+    text-align: center;
+}
+#main-items{
     text-align: center;
 }
 #ass-1{
@@ -25,8 +28,28 @@ body{
     border-radius:10px;
     text-align: center;
 }
-#img-large{
-    text-align:center;
+/*hamburger*/
+#header-nav ul{
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+}
+#nav-toggle div{
+    width:35px;
+    height:5px;
+    background-color: black;
+    margin:6px 0;
+}
+#header-nav li{
+    color: black;
+    margin:5px;
+    font-size: 13px;
+}
+.hidden{
+    display: none;
+}
+#slider{
+    color:white;
 }
 
 /*media quieries*/
@@ -36,5 +59,8 @@ body{
     }
     #links{
         flex: 1;
+    }
+    #nav-toggle{
+        display:none;
     }
 }

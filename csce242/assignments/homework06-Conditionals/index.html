@@ -7,18 +7,29 @@
     <body>
         <h1>Assignment 8</h1>
         <h3>If-Statements</h3>
-        <a href="#slider" id="ass-1">Assignment 1 | </a>
-        <a href="#images" id="ass-2">  Assignment 2</a>
+
+        <nav id="header-nav">
+            <div id="nav-toggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="main-items">
+                <a href="#slider" id="ass-1">Assignment 1 | </a>
+                <a href="#images" id="ass-2">  Assignment 2</a>
+            </ul>
+        </nav>
        <div id="slider" class="hidden">
         <h2>Color Slider</h2>
-        <input type="range" id="slider" min="0" max="255" value="0">
-        <div id="message">Move the slider to change the color!</div>
+        <input type="range" id="slider1" min="0" max="255" value="0">
+        <div id="text">Pick your color</div>
         </div>
         <div id="images" class="hidden">
             <h1>Picture Chooser</h1>
             <button id="btn-small">Small</button>
             <button id="btn-medium">Medium</button>
             <button id="btn-large">Large</button>
+            
             <img id="img-large" src="https://picsum.photos/200/200" alt="placeHolder" class="hidden"><br>
             <img id="img-medium" src="https://picsum.photos/100/100" alt="placeHolder" class="hidden"><br>
             <img id="img-small" src="https://picsum.photos/50/50" alt="placeHolder" class="hidden"><br>
