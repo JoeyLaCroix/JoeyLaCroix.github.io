@@ -1,0 +1,41 @@
+:root{
+    --flaxen:#D6C886;
+    --darkleaf:#CAD998;
+    --fern:#9C9C53;
+    --ivy:#6A774E;
+}
+
+/*  MAIN  */
+
+body{
+    background-color:var(--darkleaf);
+    justify-content: center;
+    align-items: center;
+}
+#header h1{
+    text-align: center;
+    color:var(--ivy);
+}
+#header h2{
+    color:var(--fern);
+    text-align: center;
+}
+
+/*  ARRAY  */
+#main{
+    background-color: var(--ivy);
+}
+
+/* MEDIA QUERIES  */
+
+@media (min-width: 900px){
+    #main-nav{
+        display: flex;
+    }
+    #links{
+        flex: 1;
+    }
+    #nav-toggle{
+        display:none;
+    }
+}
