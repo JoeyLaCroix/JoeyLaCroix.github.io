@@ -21,6 +21,33 @@ body{
     text-align: center;
 }
 
+
+#title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#description {
+    margin-bottom: 20px;
+}
+.image-container {
+    border:3px solid black;
+    justify-content: center;
+}
+.image-container img {
+    width: 150px;
+    height: 150px;
+    margin:10px;
+    border:3px solid black;
+}
+#title{
+    text-align:center;
+    color:#6A774E;
+}
+#description{
+    text-align:center;
+    color:#6A774E
+}
 /*  ARRAY  */
 #main{
     background-color: var(--ivy);
@@ -29,7 +56,7 @@ body{
 /* MEDIA QUERIES  */
 
 @media (min-width: 900px){
-    #main-nav{
+    #main-nav,.image-container{
         display: flex;
     }
     #links{
