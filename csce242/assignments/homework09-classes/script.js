@@ -28,7 +28,7 @@ class Bird {
     }
 
     getExpandedSection() {
-        // Create the expanded section using DOM methods
+    
         const container = document.createElement('div');
         container.id = 'bird-details';
         const title = document.createElement('h3');
@@ -73,7 +73,7 @@ const birds = [
 
 const birdsContainer = document.getElementById('birds-container');
 birdsContainer.id = 'bird-details';
-// Display bird sections using DOM manipulation
+
 birds.forEach(bird => {
     birdsContainer.appendChild(bird.getSection());
 });
@@ -82,11 +82,8 @@ function showDetails(birdName) {
     const bird = birds.find(b => b.name === birdName);
     document.getElementById('modalTitle').innerText = bird.name;
 
-    // Clear previous modal content
     const modalContent = document.getElementById('modalContent');
     modalContent.innerHTML = '';
     modalContent.appendChild(bird.getExpandedSection());
-
-    // Show the modal
     document.getElementById('birdModal').style.display = 'block';
 }
