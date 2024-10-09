@@ -1,0 +1,59 @@
+[
+    {
+        "id":1,
+        "title":"oil",
+        "description":"OPEC restricts Oil supply. Gas prices rise overnight!",
+        "Ieffect":[0.5, 2.5],
+        "Reffect":null,
+        "Ueffect":null
+    },
+    {
+        "id":2,
+        "title":"Housing Bust",
+        "description":"After a long run of appreciate, house prices fall!",
+        "Ieffect":null,
+        "Reffect":[-2.0,-1.0],
+        "Ueffect":[1.5,3.0]
+    },
+    {
+        "id":3,
+        "title":"Pandemic",
+        "description":"A new Corona Virus emerges.  Major parts of our economy are shuttered!",
+        "Ieffect":[-2.0,-1.0],
+        "Reffect":[-10.0,-5.0],
+        "Ueffect":[4.0,6.0]
+    },
+    {
+        "id":4,
+        "title":"Natural Disaster",
+        "description":"Earthquakes rock major West Coast cities, disabling them!",
+        "Ieffect":[1.0,2.0],
+        "Reffect":[-3.0,-2.0],
+        "Ueffect":[2.0,3.0]
+    },
+    {
+        "id":5,
+        "title":"Stock Market Bust",
+        "description":"Dow Jones Average falls 25% overnight!",
+        "Ieffect":null,
+        "Reffect":[-3.0,-2.0],
+        "Ueffect":[1.0,2.0]
+    },
+    {
+        "id":6,
+        "title":"War",
+        "description":"Several Major US Allies engage in war with a common foe!",
+        "Ieffect":[4.0,5.0],
+        "Reffect":[2.0,3.0],
+        "Ueffect":null
+    },
+    {
+        "id":7,
+        "title":"Trade Dispute",
+        "description":"Major trading partners levy trade barriers!",
+        "Ieffect":[3.0,4.0],
+        "Reffect":-1,
+        "Ueffect":null
+    }
+]
+
