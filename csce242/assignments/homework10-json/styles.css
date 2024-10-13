@@ -1,0 +1,22 @@
+#title{
+    color:blue;
+    text-align: center;
+}
+body{
+    background-color:tan;
+}
+.flavors{
+    text-align:center;
+    font-size: 20px;
+    border:3px solid black;
+}
+
+/*Media Query*/
+@media (min-width: 600px) {
+    #icecream-menu{
+        display: flex;
+    }
+    .flavors{
+        flex:2;
+    }
+}
