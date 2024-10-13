@@ -21,15 +21,12 @@ const getFlavorSection = (flavor) => {
     section.classList.add("flavors");
     const h3 = document.createElement("h3");
     h3.innerHTML = flavor.name;
-    const p = document.createElement("p");
-    p.innerHTML = flavor.brand;
-    const backgroundimg = document.createElement("img");
-    backgroundimg.src = 'https://portiaportia.github.io/json/images/ice-creams/'+jpgflavor.image;
-    section.append(backgroundimg);
-   
+    let backgroundimg = document.createElement("img");
+    backgroundimg = `https://portiaportia.github.io/json/images/ice-creams/${flavor.image}`;
+    backgroundimg.alt = flavor.name;
+    section.style.backgroundImage = `url('${backgroundimg}')`;
     
     section.append(h3);
-    section.append(p);
     document.getElementById("icecream-menu").append(section);
 
     return section;

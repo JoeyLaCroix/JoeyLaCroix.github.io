@@ -4,19 +4,31 @@
 }
 body{
     background-color:tan;
+    align-items: center;
 }
 .flavors{
     text-align:center;
     font-size: 20px;
+    padding:10px;
+    margin:10px;
     border:3px solid black;
+    height:100px;
+    width:100px;
 }
 
+.hidden{
+    display:none;
+}
+.flavors:hover .overlay {
+    opacity: 1;
+  }
 /*Media Query*/
 @media (min-width: 600px) {
     #icecream-menu{
         display: flex;
+        flex-wrap:wrap;
     }
     .flavors{
-        flex:2;
+        flex:22%;
     }
 }
