@@ -21,6 +21,7 @@ const getFlavorSection = (flavor) => {
     section.classList.add("flavors");
     const h3 = document.createElement("h3");
     h3.innerHTML = flavor.name;
+    h3.classList.add("overlay");
     let backgroundimg = document.createElement("img");
     backgroundimg = `https://portiaportia.github.io/json/images/ice-creams/${flavor.image}`;
     backgroundimg.alt = flavor.name;

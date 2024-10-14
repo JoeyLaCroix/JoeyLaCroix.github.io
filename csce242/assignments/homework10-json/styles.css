@@ -16,10 +16,15 @@ body{
     width:100px;
 }
 
-.hidden{
-    display:none;
+.overlay{
+    background-color: #00000080;
+    padding: 30px;
+    margin-top:26px;
+    color:white;
+    display: none;
 }
 .flavors:hover .overlay {
+    display: block;
     opacity: 1;
   }
 /*Media Query*/
