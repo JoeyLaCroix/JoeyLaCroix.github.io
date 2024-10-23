@@ -7,7 +7,7 @@ window.onload = () => {
 }
 
 const getSurfers = async() => {
-    const url = "C:\Users\joela\OneDrive\Desktop\csce242\JoeyLaCroix.github.io\projects\part four\surfers.json";
+    const url = "JoeyLaCroix.github.io/projects/part four/surfers.json";
 
     try{
         const response = await fetch(url);
