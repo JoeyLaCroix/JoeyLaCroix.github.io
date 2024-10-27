@@ -30,11 +30,14 @@ const getSurfersSection = (surfer) => {
     const h3 = document.createElement("h3");
     const p = document.createElement("p");
     const h4 = document.createElement("h4");
+    const img = document.createElement("img");
 
+    img.src = surfer.img_name;
     h4.innerHTML = surfer.hometown;
     h3.innerHTML = surfer.name;
     p.innerHTML = surfer.bio;
 
+    section.append(img);
     section.append(h3);
     section.append(h4);
     section.append(p);
