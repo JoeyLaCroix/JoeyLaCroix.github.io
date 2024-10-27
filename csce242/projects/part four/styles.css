@@ -257,6 +257,17 @@ body{
     border: 3px solid var(--black);
     color:var(--ocean);
 }
+#surftitle
+{
+    text-align: center;
+    background-color: var(--darkblue);
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+    border: 3px solid var(--black);
+    color:var(--ocean);
+
+}
 /*Media Queries*/
 
 @media only screen and (min-width: 600px) {
@@ -264,7 +275,10 @@ body{
     #header-nav ul,#middleimages,#main-bottom,#aboutus-main,#checkout-main,#surf-main,#nci-main,#title,#spots,#main-surf-list{
         display: flex;
     }
-    #header-nav li,#img-logo,#shoplink,#p,#column1,#column2,#middlemain,#mainnci,#title section,#spot,.surfers{
+    #main-surf-list{
+        flex-wrap:wrap;
+    }
+    #header-nav li,#img-logo,#shoplink,#p,#column1,#column2,#middlemain,#mainnci,#title section,#spot{
         flex:1;
         flex-wrap:wrap;
     }

@@ -26,14 +26,20 @@ const showShurfers = async() => {
 
 const getSurfersSection = (surfer) => {
     const section = document.createElement("section");
-    section.classList.add("surfer");
+    section.classList.add("surfers");
     const h3 = document.createElement("h3");
     const p = document.createElement("p");
+    const h4 = document.createElement("h4");
 
+    h4.innerHTML = surfer.hometown;
     h3.innerHTML = surfer.name;
     p.innerHTML = surfer.bio;
 
     section.append(h3);
+    section.append(h4);
     section.append(p);
-    document.getElementById("main-surf-list").append(section);
+    
+    return section;
 };
+
+showShurfers();
