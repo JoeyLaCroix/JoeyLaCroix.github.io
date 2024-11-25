@@ -44,20 +44,72 @@ body{
 .hidden{
     display:none;
 }
-.factor{
+#values{
     background-color: var(--start-menu);
+    border: 3px solid black;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
 
 }
-#factor{
-
+#button1{
+    background-color: var(--start-menu);
+    border: 3px solid black;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+#button1:hover{
+    background-color:var(--startButton);
+}
+#button2{
+    background-color: var(--start-menu);
+    border: 3px solid black;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+#button2:hover{
+    background-color:var(--startButton);
+}
+#button3{
+    background-color: var(--start-menu);
+    border: 3px solid black;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+#button3:hover{
+    background-color:var(--startButton);
+}
+#button4{
+    background-color: var(--start-menu);
+    border: 3px solid black;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+#button4:hover{
+    background-color:var(--startButton);
+}
+#information{
+    color:red;
+    background-color:black;
+}
+#information{
+    margin:50px;
+    margin-right: 25%;
+    margin-left: 25%;
+    border-radius:30px;
+    font-size:3em;
 }
 
 /*  Media Queries  */
 @media (min-width: 600px) {
-    #facts{
+    #facts,#user{
        display:flex;
     }
-    #factor{
+    #values,#button1,#button2,#button3,#button4{
         flex:1;
     }
 }
